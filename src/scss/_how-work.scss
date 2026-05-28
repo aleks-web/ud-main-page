@@ -1,0 +1,51 @@
+.how-work {
+    margin: 50px 0;
+    &__top {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+
+    &__text {
+        color: #5CC37B;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    &__title {
+        font-size: 36px;
+        font-weight: 600;
+    }
+    
+    &__line {
+        background-color: #5CC37B;
+        height: 4px;
+        width: 80px;
+    }
+
+    &__content {
+        overflow: hidden;
+        border: 1px solid #BFC8CB4D;
+        border-radius: 20px;
+        width: 100%;
+        height: 90vh;
+        position: relative;
+    }
+
+    &__video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+}
