@@ -1,5 +1,5 @@
 .advantages {
-    background-color: #DCFDE4;
+    background-color: #e6f9f3;
     padding: 50px 0;
 
     &__top {
@@ -44,6 +44,10 @@
         flex-direction: column;
         gap: 35px;
 
+        @media (min-width: 1201px) {
+            padding: 40px;
+        }
+
         &-content {
             display: flex;
             flex-direction: column;
@@ -52,7 +56,7 @@
 
         &-title {
             font-size: 24px;
-            font-weight: 500;
+            font-weight: 600;
         }
     }
 
